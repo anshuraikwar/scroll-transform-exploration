@@ -1,0 +1,208 @@
+
+.frame {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: var(--elevation_6);
+}
+
+.home_screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 24px;
+
+    background-color: var(--elevation_4);
+    transform: scale(1) translateY(0px);
+}
+
+.natesmith_dot_design_cont {
+    position: absolute;
+    top: 9px;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.text_natesmith_dot_design {
+    color: var(--elevation_12);
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.text_scroll_cont {
+    position: absolute;
+    bottom: 72px;
+    left: 50%;
+
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+}
+
+.text_scroll {
+    color: var(--elevation_12);
+    font-family: var(--font_lora);
+}
+
+.sheet {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+    border-radius: 24px;
+
+    background-color: var(--elevation_9);
+}
+
+.text_hello_world_cont {
+    position: absolute;
+    top: 169px;
+    left: 50%;
+
+    opacity: 0;
+    transform: translateX(-50%) translateY(80px);
+}
+
+.text_hello_world {
+    color: var(--elevation_2);
+    font-family: var(--font_heebo);
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+}
+
+.intros {
+    position: absolute;
+    bottom: 91px;
+    left: 50%;
+
+    height: 201px;
+    width: 268px;
+
+    opacity: 0;
+    transform: translateX(-50%) translateY(40px);
+}
+
+.im_nate_smith_cont {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+
+    transform: perspective(1200px) translateX(-50%) translateY(0px);
+}
+
+.text_im_nate_smith,
+.text_A,
+.text_los_angeles_based,
+.text_designer,
+.text_meticulous_visual,
+.text_fluid_interface {
+    color: var(--elevation_2);
+    font-family: var(--font_lora);
+    font-size: 19px;
+    line-height: 170%;
+    white-space: nowrap;
+}
+
+.A_cont, .los_angeles_based_cont, .designer_cont,
+.meticulous_visual_cont,
+.fluid_interface_cont {
+    position: absolute;
+    bottom: 9px;
+
+    opacity: 0;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-property: transform;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.A_cont {
+    left: 0;
+
+    transform: perspective(1200px) translateX(0px) translateY(20px);
+}
+
+.los_angeles_based_cont {
+    left: 18px;
+
+    transform: perspective(1200px) translateY(20px) scale(1) rotateX(0deg);
+}
+
+.designer_cont {
+    left: 189px;
+
+    transform: perspective(1200px) translateX(0px) translateY(20px);
+}
+
+.meticulous_visual_cont {
+    left: 23px;
+
+    opacity: 0;
+    transform: perspective(1200px) translateY(20px) scale(1) rotateX(0deg);
+}
+
+.fluid_interface_cont {
+    left: 36px;
+
+    opacity: 0;
+    transform: perspective(1200px) translateY(20px) scale(1);
+}
+
+.current_job_cont,
+.scroll_for_work_cont {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: break-word;
+
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+.text_current_job,
+.text_scroll_for_work {
+    color: var(--elevation_2);
+    font-size: 14px;
+    line-height: 150%;
+    white-space: nowrap;
+}
+
+.home_bar_cont {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 15px;
+}
+
+.home_bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 98px;
+    height: 5px;
+    border-radius: 5px;
+
+    transform: translateX(-50%);
+    transition: background-color 0.2s ease;
+    z-index: 1;
+}
+
+.hello_world_home_bar {
+    background-color: var(--elevation_10);
+}

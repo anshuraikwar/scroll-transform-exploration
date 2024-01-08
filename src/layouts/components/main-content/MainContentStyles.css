@@ -1,0 +1,359 @@
+.main_content {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page_content {
+    width: 100%;
+    padding: 0 56px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*.page_content > div {*/
+/*    border: 1px solid orange;*/
+/*}*/
+
+/*.page_content > div > div {*/
+/*    border: 1px solid red;*/
+/*}*/
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.page_div_absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.sheet_in {
+    height: 330px;
+}
+
+.home_indicator_color {
+    top: 16px;
+    height: 12px;
+}
+
+.scroll_down_out {
+    top: 0px;
+    height: 112px;
+}
+
+.gap_1 {
+    height: 100px;
+}
+
+.frame_scale {
+    height: 270px;
+}
+
+.hello_world_in {
+    height: 304px;
+}
+
+.im_nate_smith_subtitles {
+
+}
+
+.im_nate_smith_in {
+    height: 86px;
+}
+
+.gap_2 {
+    height: 126px;
+}
+
+.los_angeles_based_in,
+.meticulous_visual_in,
+.fluid_interface_in,
+.current_job_in,
+.scroll_for_work_in {
+    height: 45px;
+}
+
+.a_designer_in {
+    height: 90px;
+}
+
+.section_gap {
+    height: 600px;
+}
+
+.hello_out,
+.romento_in {
+    height: 400px;
+    position: relative;
+}
+
+.hello_fade_out,
+.romento_fade_in {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    height: 16px;
+}
+
+.hello_fade_out {
+    bottom: 2px;
+}
+
+.romento_fade_in {
+    top: -2px;
+}
+
+.phone_out {
+    height: 500px;
+    position: relative;
+}
+
+.phone_rotate_x,
+.phone_rotate_z,
+.phone_fade_out {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.phone_rotate_x,
+.phone_rotate_z {
+    height: 250px;
+}
+
+.phone_rotate_x {
+    top: 0;
+}
+
+.phone_rotate_z {
+    bottom: 0;
+}
+
+.phone_fade_out {
+    bottom: 0;
+    height: 32px;
+}
+
+
+.tv_in {
+    height: 500px;
+    position: relative;
+}
+
+.tv_fade_in,
+.tv_rotate_z,
+.tv_rotate_x,
+.tv_legs_out {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.tv_fade_in {
+    height: 16px;
+    top: 0;
+}
+
+.tv_rotate_z {
+    top: 0;
+    height: 250px;
+}
+
+.tv_rotate_x {
+    bottom: 0;
+    height: 250px;
+}
+
+.tv_legs_out {
+    bottom: 0;
+    height: 56px;
+}
+
+.tv_out {
+    height: 304px;
+    position: relative;
+}
+
+.tv_fade_out {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 16px;
+}
+
+.laptop_1_in {
+    height: 300px;
+    position: relative;
+}
+
+.laptop_1_fade_in,
+.laptop_bottom_fade_in {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    height: 16px;
+}
+
+.laptop_1_fade_in {
+    top: 0;
+}
+
+.bottom_pos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.bottom_pos_0,
+.bottom_pos_1,
+.bottom_pos_2 {
+    height: 100px;
+    width: 100%;
+}
+
+.laptop_bottom_fade_in {
+    bottom: 54px;
+}
+
+.laptop_1_out {
+    height: 300px;
+    position: relative;
+}
+
+.bottom_close_1,
+.bottom_close_2,
+.bottom_top_fade_out,
+.laptop_1_fade_out {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.bottom_close_1,
+.bottom_close_2 {
+    height: 150px;
+}
+
+.bottom_close_1 {
+    top: 0;
+}
+
+.bottom_close_2 {
+    bottom: 0;
+}
+
+.bottom_top_fade_out {
+    bottom: 0;
+    height: 1px;
+}
+
+.laptop_1_fade_out {
+    bottom: 0;
+    height: 16px;
+}
+
+.laptop_2_in {
+    height: 304px;
+    position: relative;
+}
+
+.laptop_2_fade_in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 16px;
+}
+
+.laptop_2_out {
+    height: 500px;
+    position: relative;
+}
+
+.laptop_2_open_flat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 40%;
+}
+
+.laptop_2_fold_backwards {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 60%;
+}
+
+.laptop_2_fade_out {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 16px;
+}
+
+.tablet_in,
+.tablet_out {
+    height: 500px;
+    position: relative;
+}
+
+.tablet_fade_in,
+.tablet_fade_out {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    height: 16px;
+}
+
+.tablet_fade_in {
+    top: 0;
+}
+
+.tablet_fade_out {
+    bottom: 0;
+}
+
+
+.section_gap_200 {
+    height: 200px;
+}
+
+.conclusion_1,
+.conclusion_2 {
+    height: 40px;
+}
+
+.bottom_padding {
+    height: 150vh;
+}
+
+.section_gap_60 {
+    height: 60px;
+}
+
+.temp_overscroll {
+    height: 100vh;
+}
