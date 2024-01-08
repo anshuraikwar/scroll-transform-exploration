@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/scroll-transform-exploration/static/css/main.075263ac.css",
+    "main.js": "/scroll-transform-exploration/static/js/main.45c868da.js",
+    "static/media/romento.mp4": "/scroll-transform-exploration/static/media/romento.e1450e9b976b3e03186c.mp4",
+    "static/media/huluTV.mp4": "/scroll-transform-exploration/static/media/huluTV.77d27916fe1c427ee559.mp4",
+    "static/media/laptop_1.mp4": "/scroll-transform-exploration/static/media/laptop_1.9fd021268ddade49c5ac.mp4",
+    "static/media/laptop_1.webp": "/scroll-transform-exploration/static/media/laptop_1.3c3d911904071f88a3e0.webp",
+    "static/media/huluTV.webp": "/scroll-transform-exploration/static/media/huluTV.631e5f0ccf5480a7aa35.webp",
+    "static/media/laptop-2-l-3-2.webp": "/scroll-transform-exploration/static/media/laptop-2-l-3-2.cce7886028e4246988c7.webp",
+    "static/media/laptop-2-l-2.webp": "/scroll-transform-exploration/static/media/laptop-2-l-2.1feda80aa8f91f28c616.webp",
+    "static/media/laptop-2-l-3-1.webp": "/scroll-transform-exploration/static/media/laptop-2-l-3-1.d5697f17b1ac3ab97003.webp",
+    "static/media/laptop-2-l-1.webp": "/scroll-transform-exploration/static/media/laptop-2-l-1.dc07fb09668f60088c81.webp",
+    "static/media/romento-logo.svg": "/scroll-transform-exploration/static/media/romento-logo.88ce144d89ee67e01af784e0b05ae1c5.svg",
+    "index.html": "/scroll-transform-exploration/index.html",
+    "main.075263ac.css.map": "/scroll-transform-exploration/static/css/main.075263ac.css.map",
+    "main.45c868da.js.map": "/scroll-transform-exploration/static/js/main.45c868da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.075263ac.css",
+    "static/js/main.45c868da.js"
+  ]
+}
