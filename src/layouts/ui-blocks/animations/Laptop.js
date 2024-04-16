@@ -181,7 +181,6 @@ export const laptopInBottomAnimation = (
   let translateYBounding = laptopInBounding;
 
   let newTranslateYMin = 38;
-  // let newTranslateYMin = 140;
 
   let translateYConversionType = [];
   if (laptopOutBounding > 0) {
@@ -189,7 +188,6 @@ export const laptopInBottomAnimation = (
     translateYBounding = laptopOutBounding;
 
     newTranslateYMin = 59.5;
-    // newTranslateYMin = 218;
 
     translateYConversionType = [ConversionTypeEnum.REVERSE];
   }
@@ -200,7 +198,6 @@ export const laptopInBottomAnimation = (
     newTranslateYMin,
 
     62.5,
-    // 229,
 
     translateYConversionType,
   );
