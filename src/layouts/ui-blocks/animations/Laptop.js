@@ -179,16 +179,13 @@ export const laptopInBottomAnimation = (
   // laptop-in bottom translateY animation
   let oldTranslateYMax = oldLaptopInMax;
   let translateYBounding = laptopInBounding;
-
   let newTranslateYMin = 38;
 
   let translateYConversionType = [];
   if (laptopOutBounding > 0) {
     oldTranslateYMax = oldLaptopOutMax;
     translateYBounding = laptopOutBounding;
-
     newTranslateYMin = 59.5;
-
     translateYConversionType = [ConversionTypeEnum.REVERSE];
   }
   const laptopBottomTranslateY = getValueInNewRange(
@@ -196,9 +193,7 @@ export const laptopInBottomAnimation = (
     oldTranslateYMax,
     translateYBounding,
     newTranslateYMin,
-
     62.5,
-
     translateYConversionType,
   );
 
@@ -279,24 +274,17 @@ export const laptop2InOutAnimation = (
     0,
     45,
   );
-  const laptopTranslateX = getValueInNewRange(
-    0,
-    oldLaptopOutMax,
-    laptopOutBounding,
-    0,
-    32,
-  );
   const laptopTranslateY = getValueInNewRange(
     0,
     oldLaptopOutMax,
     laptopOutBounding,
     0,
-    160,
+    128,
   );
   const laptopWrapper = document.getElementById(ElementIDEnum.LAPTOP_WRAPPER);
   laptopWrapper.style.transform = `
     rotateZ(${laptopRotateZ}deg)
-    translate(${laptopTranslateX}px, -${laptopTranslateY}px)
+    translate(0, -${laptopTranslateY}px)
   `;
 
   laptopLevelIdsList.map((levelId, index) => {
@@ -374,14 +362,6 @@ export const laptop2InOutBottomAnimation = (
     maxTopBounding: oldLaptopFoldBackMax,
   } = getElementTopBounding(laptopFoldBackwardsId);
 
-  const laptopBottomTranslateY = getValueInNewRange(
-    0,
-    oldLaptopFoldBackMax,
-    laptopFoldBackBounding,
-    0,
-    0,
-  );
-
   // laptop-in-out bottom rotateX animation
   let oldRotateXMax = oldLaptopInMax;
   let rotateXBounding = laptopInBounding;
@@ -411,7 +391,6 @@ export const laptop2InOutBottomAnimation = (
   const laptopBottom = document.getElementById(ElementIDEnum.LAPTOP_2_BOTTOM);
   laptopBottom.style.transform = `
     perspective(1200px)
-    translateY(${laptopBottomTranslateY}px)
     rotateX(${laptopBottomRotateX}deg)
   `;
 };

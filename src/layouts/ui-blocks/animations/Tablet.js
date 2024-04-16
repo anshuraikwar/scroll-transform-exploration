@@ -43,26 +43,18 @@ export const tabletInOutAnimation = () => {
     maxTopBounding: oldTabletOutMax,
   } = getElementTopBounding(ScrollElementIDEnum.TABLET_OUT);
 
-  const tabletTranslateX = getValueInNewRange(
-    0,
-    oldTabletInMax,
-    tabletInBounding,
-    0,
-    16,
-    [ConversionTypeEnum.REVERSE, ConversionTypeEnum.NEGATIVE],
-  );
   const tabletTranslateY = getValueInNewRange(
     0,
     oldTabletInMax,
     tabletInBounding,
     0,
-    176,
+    16,
     [ConversionTypeEnum.REVERSE],
   );
   const tablet = document.getElementById(ElementIDEnum.TABLET);
   tablet.style.opacity = tabletInOutOpacityAnimationUtil();
   tablet.style.transform = `
-    translate(${tabletTranslateX}px, ${tabletTranslateY}px)
+    translate(0, ${tabletTranslateY}px)
   `;
 
   const tabletLevelList = [
