@@ -206,3 +206,9 @@
 .hello_world_home_bar {
     background-color: var(--elevation_10);
 }
+
+@media only screen and (max-width: 300px) {
+    .text_hello_world {
+        font-size: 32px;
+    }
+}
