@@ -11,14 +11,6 @@
     flex-direction: column;
 }
 
-/*.page_content > div {*/
-/*    border: 1px solid orange;*/
-/*}*/
-
-/*.page_content > div > div {*/
-/*    border: 1px solid red;*/
-/*}*/
-
 .flex_col {
     display: flex;
     flex-direction: column;

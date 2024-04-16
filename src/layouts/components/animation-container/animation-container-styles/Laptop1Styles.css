@@ -5,10 +5,8 @@
 .laptop_level.l_0 {
     position: absolute;
     top: 21.7%;
-    /* top: 142px; */
     left: 1px;
     bottom: 21.7%;
-    /* bottom: 142px; */
     right: 0;
 
     border-radius: 20px;
@@ -75,7 +73,6 @@
 :root {
     --keyboard-content-width: 545px;
     --keyboard-content-height: 120%;
-    /* --keyboard-content-height: 442px; */
 
     --keyboard-trackpad-width: 204px;
     --keyboard-trackpad-height: 114px;
@@ -97,7 +94,6 @@
     position: absolute;
     top: 18px;
     left: 35%;
-    /* left: calc(50.0917% - (var(--keyboard-trackpad-width) / 2)); */
 
     height: 26%;
     width: 30.15%;
@@ -126,8 +122,6 @@
     position: absolute;
     bottom: 20%;
     left: 7.25%;
-    /* left: 21.8%; */
-    /* left: calc(50.0917% - 250px); */
 
     height: 47%;
     width: 85.5%;
@@ -232,14 +226,10 @@
 .laptop_level.l_3 {
     position: absolute;
     top: 23%;
-    /* top: calc(50.077% - 175px); */
     left: 8px;
-    /* left: calc(50% - 284.5px); */
 
     height: 54%;
-    /* height: 350px; */
     width: calc(100% - 16px);
-    /* width: 569px; */
     border-radius: 12px;
 
     overflow: hidden;

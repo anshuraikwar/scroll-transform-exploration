@@ -1,10 +1,9 @@
 :root {
     --animated-container-height: min(649px, 95vh);
     --animated-container-width: calc(var(--animated-container-height) * 0.9);
-    /* 586px */
 
     --remoento-hello-word-hulu-tv-width: calc(var(--animated-container-width) * 0.512);
-    /* 300px; */
+
     --tablet-padding-x: 8px;
     --tablet-padding-y: 9px;
 }

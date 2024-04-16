@@ -145,7 +145,9 @@ function AnimationContainer() {
           </div>
         </div>
       </div>
-{/* romento */}      <div className="romento" id={ElementIDEnum.ROMENTO}>
+      
+      {/* romento */}
+      <div className="romento" id={ElementIDEnum.ROMENTO}>
         <div className="romento_level l_0 frame" id={ElementIDEnum.ROMENTO_LEVEL_0} />
         <div className="romento_level l_1" id={ElementIDEnum.ROMENTO_LEVEL_1}>
           <div className="romento_video_cont" id={ElementIDEnum.ROMENTO_VIDEO}>
@@ -170,7 +172,9 @@ function AnimationContainer() {
             <div className="home_bar romento_home_bar" />
           </div>
         </div>
-      </div>{/* hulu_tv */}
+      </div>
+      
+      {/* hulu_tv */}
       <div className="hulu_tv" id={ElementIDEnum.HULU_TV}>
         <div className="hulu_tv_level l_0" id={ElementIDEnum.HULU_TV_LEVEL_0}>
           <div className="hulu_tv_background" />
@@ -197,7 +201,9 @@ function AnimationContainer() {
         </div>
         <div className="hulu_tv_level l_4" id={ElementIDEnum.HULU_TV_LEVEL_4} />
       </div>
-{/* laptop_1 */}      <div className="laptop" id={ElementIDEnum.LAPTOP_1}>
+      
+      {/* laptop_1 */}
+      <div className="laptop" id={ElementIDEnum.LAPTOP_1}>
         <div className="laptop_level l_0 laptop_top" id={ElementIDEnum.LAPTOP_1_LEVEL_0}>
           <div className="laptop_bottom_cont" id={ElementIDEnum.LAPTOP_1_BOTTOM_CONT}>
             <div className="laptop_bottom" id={ElementIDEnum.LAPTOP_1_BOTTOM}>
@@ -233,7 +239,9 @@ function AnimationContainer() {
             <img src={Laptop1} alt="" className="laptop_image" />
           </div>
         </div>
-      </div>{/* laptop_2 */}
+      </div>
+      
+      {/* laptop_2 */}
       <div className="laptop" id={ElementIDEnum.LAPTOP_2}>
         <div className="laptopWrapper" id={ElementIDEnum.LAPTOP_WRAPPER}>
           <div className="laptop_level l_0" id={ElementIDEnum.LAPTOP_2_LEVEL_0}>

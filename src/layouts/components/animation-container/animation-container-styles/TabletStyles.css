@@ -1,9 +1,6 @@
 :root {
     --tablet-dimension-x: 72.6%;
-    /* --tablet-dimension-x: 424px; */
     --tablet-dimension-y: 99%;
-    /* --tablet-dimension-y: calc(var(--tablet-dimension-x) * 1.51); */
-    /* --tablet-dimension-y: 642px; */
     --tablet-padding-x: 8px;
     --tablet-padding-y: 9px;
 }
@@ -51,14 +48,10 @@
 .tablet_level.l_3 {
     position: absolute;
     top: calc(var(--tablet-padding-y));
-    /* top: calc(50% - (var(--tablet-dimension-y) / 2) + var(--tablet-padding-y)); */
     left: calc(var(--tablet-padding-x));
-    /* left: calc(50% - (var(--tablet-dimension-x) / 2) + var(--tablet-padding-x)); */
 
     height: calc(100% - (2 * var(--tablet-padding-y)));
-    /* height: calc(var(--tablet-dimension-y) - (2 * var(--tablet-padding-y))); */
     width: calc(100% - (2 * var(--tablet-padding-x)));
-    /* width: calc(var(--tablet-dimension-x) - (2 * var(--tablet-padding-x))); */
     border-radius: 14px;
 
     overflow: hidden;
@@ -76,9 +69,7 @@
     left: calc(50%);
 
     height: 100%;
-    /* height: calc(var(--tablet-dimension-y) - (2 * var(--tablet-padding-y))); */
     width: 100%;
-    /* width: calc(var(--tablet-dimension-x) - (2 * var(--tablet-padding-x))); */
     border-radius: inherit;
 
     transform: translate(-50%, -50%);

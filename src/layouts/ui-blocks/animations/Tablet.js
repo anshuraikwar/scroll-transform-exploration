@@ -62,7 +62,7 @@ export const tabletInOutAnimation = () => {
   const tablet = document.getElementById(ElementIDEnum.TABLET);
   tablet.style.opacity = tabletInOutOpacityAnimationUtil();
   tablet.style.transform = `
-    // translate(${tabletTranslateX}px, ${tabletTranslateY}px)
+    translate(${tabletTranslateX}px, ${tabletTranslateY}px)
   `;
 
   const tabletLevelList = [
