@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/scroll-transform-exploration/static/css/main.c22c1037.css",
-    "main.js": "/scroll-transform-exploration/static/js/main.31f70edc.js",
+    "main.css": "/scroll-transform-exploration/static/css/main.d6e35cc5.css",
+    "main.js": "/scroll-transform-exploration/static/js/main.4942933c.js",
     "static/media/romento.mp4": "/scroll-transform-exploration/static/media/romento.e1450e9b976b3e03186c.mp4",
     "static/media/huluTV.mp4": "/scroll-transform-exploration/static/media/huluTV.77d27916fe1c427ee559.mp4",
     "static/media/laptop_1.mp4": "/scroll-transform-exploration/static/media/laptop_1.9fd021268ddade49c5ac.mp4",
@@ -13,11 +13,11 @@
     "static/media/laptop-2-l-1.webp": "/scroll-transform-exploration/static/media/laptop-2-l-1.dc07fb09668f60088c81.webp",
     "static/media/romento-logo.svg": "/scroll-transform-exploration/static/media/romento-logo.88ce144d89ee67e01af784e0b05ae1c5.svg",
     "index.html": "/scroll-transform-exploration/index.html",
-    "main.c22c1037.css.map": "/scroll-transform-exploration/static/css/main.c22c1037.css.map",
-    "main.31f70edc.js.map": "/scroll-transform-exploration/static/js/main.31f70edc.js.map"
+    "main.d6e35cc5.css.map": "/scroll-transform-exploration/static/css/main.d6e35cc5.css.map",
+    "main.4942933c.js.map": "/scroll-transform-exploration/static/js/main.4942933c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c22c1037.css",
-    "static/js/main.31f70edc.js"
+    "static/css/main.d6e35cc5.css",
+    "static/js/main.4942933c.js"
   ]
 }
