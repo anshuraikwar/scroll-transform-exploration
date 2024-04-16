@@ -179,12 +179,18 @@ export const laptopInBottomAnimation = (
   // laptop-in bottom translateY animation
   let oldTranslateYMax = oldLaptopInMax;
   let translateYBounding = laptopInBounding;
-  let newTranslateYMin = 140;
+
+  let newTranslateYMin = 38;
+  // let newTranslateYMin = 140;
+
   let translateYConversionType = [];
   if (laptopOutBounding > 0) {
     oldTranslateYMax = oldLaptopOutMax;
     translateYBounding = laptopOutBounding;
-    newTranslateYMin = 218;
+
+    newTranslateYMin = 59.5;
+    // newTranslateYMin = 218;
+
     translateYConversionType = [ConversionTypeEnum.REVERSE];
   }
   const laptopBottomTranslateY = getValueInNewRange(
@@ -192,7 +198,10 @@ export const laptopInBottomAnimation = (
     oldTranslateYMax,
     translateYBounding,
     newTranslateYMin,
-    229,
+
+    62.5,
+    // 229,
+
     translateYConversionType,
   );
 
@@ -235,7 +244,7 @@ export const laptopInBottomAnimation = (
   const laptopBottom = document.getElementById(laptopBottomId);
   laptopBottom.style.transform = `
     perspective(1200px)
-    translateY(${laptopBottomTranslateY}px)
+    translateY(${laptopBottomTranslateY}%)
     scale(${laptopBottomScale})
     rotateX(-${laptopBottomRotateX}deg)
   `;
